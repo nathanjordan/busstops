@@ -31,7 +31,7 @@ Sample requests/responses from sf.gov
 These are sf.gov endpoints our API will use to return data to the app.
 
 
-This gives us ALL the bus stops (3,000ish) ####
+-- This gives us ALL the bus stops (3,000ish) --
 
 GET http://busses.sf.gov/api/bus-stops
 
@@ -43,7 +43,7 @@ GET http://busses.sf.gov/api/bus-stops
     }
 ]
 
-#### This gives us the next 5 times a bus is expected to arrive ####
+-- This gives us the next 5 times a bus is expected to arrive --
 
 GET http://busses.sf.gov/api/bus-stops/:stop_id/next-times
 
@@ -79,20 +79,20 @@ class BusStopHelpers {
 
         @param lat latitude
         @param lng longitude
-        @param bounding_box_size Size of bounding box
+        @param boundingBoxSize Size of bounding box
         @return A list of stop id's
     **/
-    List<Stop> getNearbyStops(float lat, float lng, float bounding_box_size) {
+    List<Stop> getNearbyStops(float lat, float lng, float boundingBoxSize) {
 
     }
 
     /**
         Get next 5 bus arrivals for a given stop.
 
-        @param stop_id The stop id we're getting the times for
+        @param stopId The stop id we're getting the times for
         @return Next 5 bus arrivals in minutes (integers)
     **/
-    List<int> getBusArrivalsInMinutes(int stop_id) {
+    List<int> getBusArrivalsInMinutes(int stopId) {
 
     }
 

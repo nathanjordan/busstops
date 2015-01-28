@@ -76,19 +76,19 @@ function loadStopData() {
 
     @param {float} lat latitude
     @param {float} lng longitude
-    @param {float} bounding_box_size Size of bounding box
+    @param {float} boundingBoxSize Size of bounding box
     @return {Array} A list of stop id's
 **/
-function getNearbyStops(lat, lng, bounding_box_size) {
+function getNearbyStops(lat, lng, boundingBoxSize) {
 
 }
 
 /**
     Get next 5 bus arrivals for a given stop.
 
-    @param {int} stop_id The stop id we're getting the times for
+    @param {int} stopId The stop id we're getting the times for
     @return {Array} Next 5 bus arrivals in minutes (integers)
 **/
-function getBusArrivalsInMinutes(stop_id) {
+function getBusArrivalsInMinutes(stopId) {
 
 }

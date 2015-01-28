@@ -31,7 +31,7 @@ Sample requests/responses from sf.gov
 These are sf.gov endpoints our API will use to return data to the app.
 
 
-#### This gives us ALL the bus stops (3,000ish) ####
+-- This gives us ALL the bus stops (3,000ish) --
 
 GET http://busses.sf.gov/api/bus-stops
 
@@ -43,7 +43,7 @@ GET http://busses.sf.gov/api/bus-stops
     }
 ]
 
-#### This gives us the next 5 times a bus is expected to arrive ####
+-- This gives us the next 5 times a bus is expected to arrive --
 
 GET http://busses.sf.gov/api/bus-stops/:stop_id/next-times
 
